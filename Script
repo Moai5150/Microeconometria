@@ -1,3 +1,5 @@
+# Conversão da base de dados .dbc para .csv
+
 library(read.dbc)
 
 estado = ("RJ")
@@ -27,6 +29,7 @@ tables <- lapply(files, read.csv, header = TRUE)
 RJ <- do.call(rbind, tables)
 write.csv(RJ, file = "Base de dados/Dados dos leitos/RJ.csv", row.names=F)
 
+# Base de dados
 
 library(readr)
 Dados_RJ <- read_csv("Base de dados/Dados dos leitos/RJ.csv")
