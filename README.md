@@ -1,3 +1,5 @@
 # Microeconometria
 
-Trabalho da disciplina de microeconometria do Instituto de Economia da UFRJ.
+Trabalho de: Caio Jun e Giselle Ferraris
+
+Dados do DATASUS sobre a quantidade de leitos disponíveis no SUS.
